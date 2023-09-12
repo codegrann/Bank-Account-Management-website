@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Bank Account Management</title>
+</head>
+<body>
+    <h1>Bank Account Management</h1>
+    <!-- Creating Account -->
+    <div class="account-form">
+        <label for="accountHolder">Account Holder Name:</label>
+        <input type="text" id="accountHolder" placeholder="John Doe">
+        <label for="accountType">Account Type:</label>
+        <input type="text" id="accountType" placeholder="Savings">
+        <button onclick="createAccount()">Create Account</button>
+    </div>
+   <!-- Performing Transaction -->
+<div class="transaction">
+    <h2>Transactions</h2>
+    <label for="depositAmount">Deposit Amount:</label>
+    <input type="number" id="depositAmount" placeholder="Amount">
+    <button onclick="performTransaction('deposit')">Deposit</button>
+    <label for="withdrawAmount">Withdraw Amount:</label>
+    <input type="number" id="withdrawAmount" placeholder="Amount">
+    <button onclick="performTransaction('withdraw')">Withdraw</button>
+    <button onclick="performTransaction('checkBalance')">Check Balance</button>
+</div>
+
+<!-- Displaying details of account -->
+    <div class="result">
+        <h2>Result</h2>
+        <p id="resultMessage"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html
