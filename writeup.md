@@ -13,17 +13,23 @@ When new user creates an account, a new instance of BankAccount class is instani
 
 #### Class Constructor
 
-### Switch Statements
+![class constructor](assets/classFile.png)
+
+### Switch Statement
 
 User actions on the management system are facilitated by switch statements. These actions are depositing and withdrawing funds and checking balances.This enables routing of user input efficiently to the corresponding functions within the try-catch-finally block.
 
-#### Switch Statements
+#### Switch Statement
+
+![switch statement](assets/switchFile.png)
 
 ### Exception handling with try-catch-finally
 
 This has helped me adeptly manage exceptions that may arise during the execution of transactions, such as invalid inputs or insufficient funds. Occured exceptions are gracefully communicated to the user while maintaining consistency of the application's state.
 
 #### try-catch-finally instance
+
+![try-catch-finally-block](assets/tryCatchFile.png)
 
 ## Conclusion
 
