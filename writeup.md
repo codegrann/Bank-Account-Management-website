@@ -4,6 +4,12 @@
 
 During the development of this bank management system, I skillfully integrated fundamental Javascript concepts, mainly classes, try-catch-finally statements and switch statements. They together enhance functionality of my application.
 
+## Preview
+### Large Screens
+![class constructor](assets/largeScreen.png)
+### Small Screens
+![class constructor](assets/smallScreen.png)
+
 ## Core concepts
 
 ### Javascript Classes
